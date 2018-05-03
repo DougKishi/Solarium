@@ -120,12 +120,13 @@ body{
 	}
 	.content-1-a {
 		position: static;
+		padding-right: 5%;
 	}
 
 	.content-1-a p {
 		margin-top: 5%;
 		padding-left:  2%
-		padding-right-right: 2%
+		padding-right: 2%
 		line-height: 1.5;
 		text-align: justify;
 	}
