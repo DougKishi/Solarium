@@ -27,6 +27,7 @@ body{
 	font-size: 20px;
 	text-align: center;
 	font-family: arial;
+
 }
 
 .navbar a:hover {
@@ -81,11 +82,16 @@ body{
 	}
 
 	.navbar {
-		position: -webkit-sticky;
 	  	position: sticky;
+	  	z-index: 1;
 	  	margin: 0;
 	  	padding: 0;
 	  	text-align: center;
+		top:0;
+		width:100%;
+		height:100px;
+
+
 	}
 
 	.content-1-a {
@@ -120,17 +126,44 @@ body{
 	}
 	.content-1-a {
 		position: static;
-		padding-right: 5%;
 	}
 
 	.content-1-a p {
 		margin-top: 5%;
 		padding-left:  2%
-		padding-right: 2%
+		padding-right-right: 2%
 		line-height: 1.5;
 		text-align: justify;
 	}
-
-
-	
 }
+
+/*Footer*/
+
+	.footer{
+		margin: 0;
+		font-family: sans-serif;
+		width: 100%;
+		display: inline-block;
+		text-decoration: none;
+		padding: 30px;
+		font-size: 20px;
+		text-align: center;
+		font-family: arial;
+		}
+/*Voltar ao Topo*/
+
+	.go-back {
+        position: fixed;
+        bottom: 2em;
+        right: 2em;
+        text-decoration: none;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.3);
+        font-size: 12px;
+        padding: 1em;
+        display: none;
+        float: right;
+        }
+    .go-back:hover {
+        background-color: rgba(0, 0, 0, 0.6);
+        }
